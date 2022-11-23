@@ -1,0 +1,156 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jean Paul BENGA",
+    "label": "Developpeur Web Junior",
+    "image": "",
+    "email": "jpaulbenga@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "countryCode": "FR",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAADg6VCoBqzqKTXpGbgworkh5ZdV2DIRpRLA",
+        "url": "https://www.linkedin.com/in/ACoAADg6VCoBqzqKTXpGbgworkh5ZdV2DIRpRLA/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "easyJet",
+      "position": "Steward",
+      "startDate": "2019-03-31",
+      "endDate": "2020-10-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/easyjet/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "name": "Free - Groupe iliad",
+      "position": "Conseiller commercial",
+      "startDate": "2016-08-31",
+      "endDate": "2019-02-28",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/iliadfree/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "name": "Radiance Mutuelle - Groupe Malakoff Humanis",
+      "position": "Conseiller commercial",
+      "startDate": "2015-08-31",
+      "endDate": "2016-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/radiance-mutuelle-groupe-malakoff-humanis/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "name": "APICIL",
+      "position": "Conseiller commercial",
+      "startDate": "2013-08-31",
+      "endDate": "2015-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/apicil/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Human Booster",
+      "area": "Technologie informatique / technologie des systèmes informatiques",
+      "studyType": "Developpeur Web et Web Mobile",
+      "startDate": "2021-09-30",
+      "endDate": "2022-06-30",
+      "score": "en cours",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Développement web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (langage de programmation)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Feuilles de style en cascade (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Figma",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scrum",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
