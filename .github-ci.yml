@@ -1,15 +1,27 @@
 image: node:latest
 
 stages:
-    -build
+  - build
 
 pages:
-    stage: build
-    script:
-        - npm install
-        - npx resumed render resume.json --theme eloquent
-        - mkdir public
-        - mv resume.html public/index.html
-    artifacts:
-        paths:
-            - public
+  stage: build
+  script:
+    - npm install
+    - npx resumed render resume.json --theme eloquent
+    - mkdir public
+    - mv resume.html public/index.html
+    - tar -cf "$RUNNER_TEMP/artifact.tar" -C public .
+    - actions/upload-artifact@v2
+      with:
+        name: github-pages
+        path: $RUNNER_TEMP/artifact.tar
+
+deploy:
+  stage: deploy
+  needs: [pages]
+  script:
+    - mkdir public
+    - tar -xf github-pages.tar -C public
+  artifacts:
+    paths:
+      - public
