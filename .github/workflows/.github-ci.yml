@@ -11,6 +11,7 @@ pages:
     - npx resumed render resume.json --theme eloquent
     - mkdir public
     - mv resume.html public/index.html
+    - ls public
   artifacts:
     paths:
       - public
@@ -18,8 +19,8 @@ pages:
 deploy:
   stage: deploy
   script:
-    - git config --global user.name "Nom de l'utilisateur"
-    - git config --global user.email "adresse-email@example.com"
+    - git config --global user.name ${{ secrets.GIT_USERNAME }}
+    - git config --global user.email ${{ secrets.GIT_EMAIL }}
     - git checkout -B gh-pages
     - git add .
     - git commit -m "Mise à jour du CV"
