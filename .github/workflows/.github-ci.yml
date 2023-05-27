@@ -11,6 +11,8 @@ pages:
     - npx resumed render resume.json --theme eloquent
     - mkdir public
     - mv resume.html public/index.html
+    - pwd
+    - ls -la
     - ls public
   artifacts:
     paths:
