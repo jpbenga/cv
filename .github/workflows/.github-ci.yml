@@ -1,6 +1,8 @@
 image: node:latest
 
-stages: -build
+stages:
+  - build
+  - deploy
 
 pages:
   stage: build
@@ -12,3 +14,13 @@ pages:
   artifacts:
     paths:
       - public
+
+deploy:
+  stage: deploy
+  script:
+    - git config --global user.name "Nom de l'utilisateur"
+    - git config --global user.email "adresse-email@example.com"
+    - git checkout -B gh-pages
+    - git add .
+    - git commit -m "Mise à jour du CV"
+    - git push -f origin gh-pages
