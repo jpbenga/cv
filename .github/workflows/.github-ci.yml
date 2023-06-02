@@ -7,8 +7,9 @@ pages:
   script:
     - npm install
     - npx resumed render resume.json --theme eloquent
-    - mkdir public
-    - mv resume.html public/index.html
+    - ls
+    - mkdir ./public
+    - mv resume.html ./public/index.html
   artifacts:
     paths:
       - public
