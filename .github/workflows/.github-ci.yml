@@ -7,9 +7,9 @@ pages:
     - npm install
     - npx resumed render resume.json --theme eloquent
     - ls
+    - chmod -R +w ./public # Ajouter cette ligne pour donner des droits en écriture
     - mkdir ./public
     - mv resume.html ./public/index.html
-    - chmod -R +w ./public # Ajouter cette ligne pour donner des droits en écriture
   artifacts:
     paths:
       - public
