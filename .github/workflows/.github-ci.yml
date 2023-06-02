@@ -1,6 +1,5 @@
-node:latest
-
-stages: -build
+stages:
+  - build
 
 pages:
   stage: build
@@ -10,6 +9,7 @@ pages:
     - ls
     - mkdir ./public
     - mv resume.html ./public/index.html
+    - chmod -R +w ./public # Ajouter cette ligne pour donner des droits en écriture
   artifacts:
     paths:
       - public
