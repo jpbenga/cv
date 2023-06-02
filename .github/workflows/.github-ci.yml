@@ -1,15 +1,47 @@
-stages:
-  - build
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
 
-pages:
-  stage: build
-  script:
-    - npm install
-    - npx resumed render resume.json --theme eloquent
-    - ls
-    - sudo mkdir -p ./public
-    - sudo mv resume.html ./public/index.html
-    - sudo chmod -R +w ./public
-  artifacts:
-    paths:
-      - public
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate site
+        run: npx resumed render resume.json --theme eloquent
+
+      - name: Create public directory
+        run: mkdir public
+
+      - name: Move resume.html to public
+        run: mv resume.html public/index.html
+
+      - name: Fix file permissions
+        run: chmod -R +w public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
