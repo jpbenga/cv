@@ -2,5 +2,12 @@
   "dependencies": {
     "jsonresume-theme-eloquent": "^4.1.0",
     "resumed": "^1.0.3"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }

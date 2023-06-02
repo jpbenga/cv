@@ -1,15 +1,16 @@
-name: Build and Deploy
+name: CI/CD
+
 on:
   push:
     branches:
       - main
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Set up Node.js
@@ -18,30 +19,16 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Generate site
-        run: npx resumed render resume.json --theme eloquent
+      - name: Generate HTML
+        run: node generate-html.js
+        env:
+          JSONRESUME_FILE: resume.json
+          HTML_OUTPUT_FILE: resume.html
 
-      - name: Create public directory
-        run: mkdir public
-
-      - name: Move resume.html to public
-        run: mv resume.html public/index.html
-
-      - name: Fix file permissions
-        run: chmod -R +w public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Deploy to gh-pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
