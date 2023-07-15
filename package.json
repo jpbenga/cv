@@ -15,6 +15,6 @@
     "gh-pages": "^5.0.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d . -b main"
+    "build": "npx resume export --theme eloquent ./resume.html"
   }
 }
