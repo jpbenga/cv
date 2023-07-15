@@ -3,7 +3,7 @@ name: Deploy CV
 on:
   push:
     branches:
-      - main # Remplacez par le nom de votre branche principale si différent
+      - main # Replace with the name of your main branch if different
 
 jobs:
   deploy:
@@ -18,5 +18,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-          publish_branch: gh-pages
-        publish_dir: ./resume.html
+          workdir: ./resume.html
