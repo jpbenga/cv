@@ -1,0 +1,154 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jean Paul BENGA",
+    "label": "Developpeur Web Junior",
+    "picture": "https://media.licdn.com/dms/image/C5603AQFkqZcaWhLBlQ/profile-displayphoto-shrink_400_400/0/1637139318344?e=1690416000&v=beta&t=_FnsqC_5oL5mH0W2FSfgkXswCJh_9nf9sTcq8VydUIs",
+    "email": "jpaulbenga@gmail.com",
+    "phone": "06.17.06.57.57",
+    "url": "https://github.com/jpbenganpx resum",
+    "summary": "Je suis actuellement en formation chez Human Booster en tant que concepteur développeur d'application. Précédemment, j'ai suivi une formation de développeur web afin de me préparer à devenir un développeur compétent. Je suis à la recherche d'un stage de 4 mois, du 24 novembre 2023 au 2 avril 2024, dans le but de mettre en pratique mes compétences et de valider mon diplôme. Je suis convaincu que mon esprit d'équipe, ma résilience et ma passion pour le développement feront de moi un atout précieux pour votre entreprise. Je serais honoré de rejoindre votre équipe et de contribuer activement à vos projets.",
+    "location": {
+      "countryCode": "FR",
+      "address": "12 passage des alouettes, 69008 Lyon"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ACoAADg6VCoBqzqKTXpGbgworkh5ZdV2DIRpRLA",
+        "url": "https://www.linkedin.com/in/ACoAADg6VCoBqzqKTXpGbgworkh5ZdV2DIRpRLA/"
+      },
+      {
+        "network": "Github",
+        "username": "",
+        "url": "https://github.com/jpbenga"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Phenix Info",
+      "position": "Stagiaire Développeur Fullstack",
+      "startDate": "2022-04-19",
+      "endDate": "2022-06-29",
+      "highlights": ["Développement et optimisation de fonctionnalités pour le client Mytapngo Développement de statistiques pour le client Medinlyon avec la librairie chartjs et des requêtes ajax",
+      "Développement d'une solution pour implémenter le protocole FIDO",
+      "Création d'un site market place pour le client Action Grand Sud 'from scratch' en php/twig, Fat-Free et bootstrap",
+      "Mise en production d'une solution backoffice sur site pour le client Sandvick Mining",
+      "Programmation orientée objet en php avec le framework Fat-free",
+      "Modélisation et création d'une base de données",
+      "Travail collaboratif avec gitlab en respectant les normes propre à l'entreprise Rendez-vous client pour recueillir les besoins exprimés puis établir le devis",
+      "Briefing hebdomadaire pour connaître l'avancer de l'équipe sur les différents projets et assignation des prochaines tâches"],
+      "url": "https://www.linkedin.com/company/easyjet/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "company": "EasyJet",
+      "position": "Steward",
+      "startDate": "2019-03-31",
+      "endDate": "2020-10-31",
+      "highlights": [" Assurer un maximum de confort au passager en les rassurant sur leurs inquiétudes et en proposant un service à bord",
+      " Veiller au bien être et à la sécurité des passagers sous la responsabilité du commandant de bord"],
+      "url": "https://www.linkedin.com/company/easyjet/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "company": "Free",
+      "position": "Conseiller commercial",
+      "startDate": "2016-08-31",
+      "endDate": "2019-02-28",
+      "highlights": [
+        " Souscription aux offres freebox et freemobile",
+        "Vente de téléphones mobiles sur la boutique en ligne",
+        "Prise en charge des abonnés en boutique lors de problèmes liés à la freebox, la connexion internet ou la carte sim"
+      ],
+      "url": "https://www.linkedin.com/company/iliadfree/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "company": "Radiance Mutuelle - Groupe Malakoff Humanis",
+      "position": "Conseiller commercial",
+      "startDate": "2015-08-31",
+      "endDate": "2016-08-31",
+      "highlights": [
+        "Développer et fidéliser un portefeuille clients comprenant des entreprise et des particuliers en", "commercialisant une offre dans les domaines de la prévoyance, la santé et l'épargne.",
+        "Réaliser des entretiens de vente auprès de ses clients et prospects et identifier les besoins des", "différents interlocuteurs tant en termes de produits que de services",
+        "Participer à la prospection téléphonique dans le cadre de campagnes commerciales"
+      ],
+      "url": "https://www.linkedin.com/company/radiance-mutuelle-groupe-malakoff-humanis/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
+    {
+      "company": "Apicil",
+      "position": "Conseiller commercial",
+      "startDate": "2013-08-31",
+      "endDate": "2015-08-31",
+      "highlights": [ "Assurer le développement en vente assise du chiffre d'affaires sur les marchés", "Individuels et Professionnels (TNS) par la vente en direct", 
+      "Distribuer les produits et services du Groupe : prospecter, élaborer et suivre les propositions commerciales",
+      "Accueillir la clientèle au téléphone ou en agence pour toutes questions relatives à sa situation et qualifier les besoins exprimés, le cas échéant la réorienter",
+      "Assurer le service client (téléphone ou en face à face)"],
+      "url": "https://www.linkedin.com/company/apicil/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Human Booster",
+      "area": "Concepteur Développeur d'Application",
+      "studyType":"Technologie informatique / technologie des systèmes informatiques",
+      "startDate": "2023-04-13",
+      "endDate": "2024-04-02",
+      "score": "en cours",
+      "courses": []
+    },
+    {
+      "institution": "Human Booster",
+      "area": "Developpeur Web et Web Mobile",
+      "studyType": "Technologie informatique / technologie des systèmes informatiques",
+      "startDate": "2021-09-30",
+      "endDate": "2022-06-30",
+      "score": "obtenu",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Développement Front",
+      "level": "",
+      "keywords": ["Javascript", "Typescript", "Angular"]
+    },
+    {
+      "name": "Développement Back",
+      "level": "",
+      "keywords": ["Nodejs", "Express", "Sequelize", "Symfony", "Php", "Java", "Spring"]
+    },
+    {
+      "name": "Développement d'Application",
+      "level": "",
+      "keywords": ["Electronjs", "Kotlin"]
+    },
+    {
+      "name": "Autres",
+      "level": "",
+      "keywords": ["Docker", "Github", "Scrum", "Figma"]
+    }
+    
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
