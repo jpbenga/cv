@@ -3,7 +3,7 @@ name: Deploy CV
 on:
   push:
     branches:
-      - main # Replace with the name of your main branch if different
+      - main
 
 jobs:
   deploy:
@@ -13,13 +13,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Use Node.js v16
-        uses: actions/setup-node@v2
+      - name: Setup Node.js v16
+        uses: actions/setup-node@v3
         with:
           node-version: "16"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate CV
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./resume.html
+          publish_dir: ./
