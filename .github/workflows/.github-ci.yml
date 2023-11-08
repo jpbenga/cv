@@ -25,7 +25,7 @@ jobs:
         run: npx resume export --theme eloquent ./index.html
 
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: cv-artifacts
           path: index.html
