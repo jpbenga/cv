@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jean Paul BENGA",
-    "label": "Developpeur Web Junior",
+    "label": "Developpeur Fullstack Java / Angular",
     "picture": "https://media.licdn.com/dms/image/C5603AQFkqZcaWhLBlQ/profile-displayphoto-shrink_400_400/0/1637139318344?e=1690416000&v=beta&t=_FnsqC_5oL5mH0W2FSfgkXswCJh_9nf9sTcq8VydUIs",
     "email": "jpaulbenga@gmail.com",
     "phone": "06.17.06.57.57",
     "url": "https://github.com/jpbenganpx resum",
-    "summary": "Je suis actuellement en formation chez Human Booster en tant que concepteur développeur d'application. Précédemment, j'ai suivi une formation de développeur web afin de me préparer à devenir un développeur compétent. Je suis à la recherche d'un stage de 4 mois, du 24 novembre 2023 au 2 avril 2024, dans le but de mettre en pratique mes compétences et de valider mon diplôme. Je suis convaincu que mon esprit d'équipe, ma résilience et ma passion pour le développement feront de moi un atout précieux pour votre entreprise. Je serais honoré de rejoindre votre équipe et de contribuer activement à vos projets.",
+    "summary": "Passionné par le développement logiciel, je possède une solide base en .NET, Angular, et Java, qui me permet de contribuer efficacement à divers projets. Mon parcours jusqu'à présent démontre un engagement profond envers l'innovation et le développement de solutions technologiques adaptées. Motivé et rigoureux, je suis constamment à la recherche de nouvelles façons d'améliorer la qualité et l'efficacité des applications sur lesquelles je travaille. Je souhaite mettre à profit mon enthousiasme et mes compétences techniques au sein d'une équipe dynamique, où je pourrais participer à la réalisation de projets ambitieux et innovants.",
     "location": {
       "countryCode": "FR",
       "address": "12 passage des alouettes, 69008 Lyon"
@@ -26,6 +26,21 @@
     ]
   },
   "work": [
+    {
+      "company": "Reactis",
+      "position": "Stagiaire Développeur C# / Angular",
+      "startDate": "2023-11-21",
+      "endDate": "2024-04-02",
+      "highlights": ["Développement d'un module Angular pour intégrer les commandes SSH",
+      "Conception d'une interface utilisateur",
+      "Création d'une api .NET Core avec MongoDB",
+      "Développement d'une interface de gestion de projets avec Angular",
+      "Travail collaboratif avec Git pour la gestion de versions et l'intégration de code",
+      "Participation active aux réunions d'équipe et Scrum (Daily Meetings, Sprint Review) pour le suivi des progrès et la planification des sprints"
+    ],
+      "url": "https://www.linkedin.com/company/easyjet/",
+      "location": "Lyon, Auvergne-Rhône-Alpes, France"
+    },
     {
       "company": "Phenix Info",
       "position": "Stagiaire Développeur Fullstack",
@@ -58,9 +73,6 @@
       "startDate": "2016-08-31",
       "endDate": "2019-02-28",
       "highlights": [
-        " Souscription aux offres freebox et freemobile",
-        "Vente de téléphones mobiles sur la boutique en ligne",
-        "Prise en charge des abonnés en boutique lors de problèmes liés à la freebox, la connexion internet ou la carte sim"
       ],
       "url": "https://www.linkedin.com/company/iliadfree/",
       "location": "Lyon, Auvergne-Rhône-Alpes, France"
@@ -71,9 +83,6 @@
       "startDate": "2015-08-31",
       "endDate": "2016-08-31",
       "highlights": [
-        "Développer et fidéliser un portefeuille clients comprenant des entreprise et des particuliers en", "commercialisant une offre dans les domaines de la prévoyance, la santé et l'épargne.",
-        "Réaliser des entretiens de vente auprès de ses clients et prospects et identifier les besoins des", "différents interlocuteurs tant en termes de produits que de services",
-        "Participer à la prospection téléphonique dans le cadre de campagnes commerciales"
       ],
       "url": "https://www.linkedin.com/company/radiance-mutuelle-groupe-malakoff-humanis/",
       "location": "Lyon, Auvergne-Rhône-Alpes, France"
@@ -83,10 +92,7 @@
       "position": "Conseiller commercial",
       "startDate": "2013-08-31",
       "endDate": "2015-08-31",
-      "highlights": [ "Assurer le développement en vente assise du chiffre d'affaires sur les marchés", "Individuels et Professionnels (TNS) par la vente en direct", 
-      "Distribuer les produits et services du Groupe : prospecter, élaborer et suivre les propositions commerciales",
-      "Accueillir la clientèle au téléphone ou en agence pour toutes questions relatives à sa situation et qualifier les besoins exprimés, le cas échéant la réorienter",
-      "Assurer le service client (téléphone ou en face à face)"],
+      "highlights": [],
       "url": "https://www.linkedin.com/company/apicil/",
       "location": "Lyon, Auvergne-Rhône-Alpes, France"
     }
@@ -99,7 +105,7 @@
       "studyType":"Technologie informatique / technologie des systèmes informatiques",
       "startDate": "2023-04-13",
       "endDate": "2024-04-02",
-      "score": "en cours",
+      "score": "obtenu",
       "courses": []
     },
     {
@@ -124,12 +130,12 @@
     {
       "name": "Développement Back",
       "level": "",
-      "keywords": ["Nodejs", "Express", "Sequelize", "Symfony", "Php", "Java", "Spring"]
+      "keywords": ["MongoDb", "Java", "Spring", "C#"]
     },
     {
       "name": "Développement d'Application",
       "level": "",
-      "keywords": ["Electronjs", "Kotlin"]
+      "keywords": []
     },
     {
       "name": "Autres",
