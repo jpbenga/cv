@@ -15,8 +15,10 @@ jobs:
           node-version: 16
       - name: Install dependencies
         run: npm install
-      - name: Build index.html
-        run: npm run build
+      - name: Install resume-cli globally
+        run: npm install -g resume-cli
+      - name: Build index.html with specific theme
+        run: resume export index.html --theme onepage-updated
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
