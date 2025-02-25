@@ -17,6 +17,6 @@
     "gh-pages": "^5.0.0"
   },
   "scripts": {
-    "build": "npx resume export --theme onepage-plus ./index.html"
+    "build": "resume export index.html --theme onepage-updated"
   }
 }
